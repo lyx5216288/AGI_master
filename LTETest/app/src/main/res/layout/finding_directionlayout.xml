@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/findimsi_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="目标测向"
+            android:textColor="#FFF"
+            android:textSize="30sp"
+            android:layout_weight="3"/>
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="开始"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_weight="1"/>-->
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/findimsi_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="空码获取"
+            android:textColor="#FFF"
+            android:textSize="30sp"
+
+            android:layout_weight="3"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="开始"
+            android:textColor="#FFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/sortnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按次数排序"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/findimsi_title"/>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/sortnum"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000"
+        android:id="@+id/line1"></View>
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/find_stmsi_layout_count_list_title"
+        android:layout_below="@id/line1"
+        android:layout_height="20dp">
+        <TextView
+            android:id="@+id/find_stmsi_count_stmsi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="IMSI"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/find_stmsi_count_count"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_toRightOf="@+id/find_stmsi_count_stmsi"
+            android:gravity="center"
+            android:text="次数"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="15%" />
+        <TextView
+            android:id="@+id/find_stmsi_time_time"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_toRightOf="@+id/find_stmsi_count_count"
+            android:gravity="center"
+            android:text="时间"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/find_stmsi_time_pci"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_toRightOf="@+id/find_stmsi_time_time"
+            android:gravity="center"
+            android:text="PCI"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="15%" />
+
+        <TextView
+            android:id="@+id/find_stmsi_time_board"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_toRightOf="@+id/find_stmsi_time_pci"
+            android:gravity="center"
+            android:text="EARFCN"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="20%" />
+    </android.support.percent.PercentRelativeLayout>
+    <ImageView
+        android:id="@+id/find_stmsi_layout_devide_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000000"
+        android:layout_below="@+id/find_stmsi_layout_count_list_title"/>
+    <ListView
+        android:layout_below="@+id/find_stmsi_layout_devide_line_one"
+        android:id="@+id/find_stmsi_count_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#000000"
+        android:dividerHeight="1dip"/>
+
+
+
+
+
+
+
+</RelativeLayout>

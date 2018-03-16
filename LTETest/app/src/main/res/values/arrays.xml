@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mncno">
+        <item>移动00</item>
+        <item>移动02</item>
+        <item>移动07</item>
+        <item>联通01</item>
+        <item>联通06</item>
+        <item>电信03</item>
+        <item>电信05</item>
+        <item>电信11</item>
+    </string-array>
+    <string-array name="ratkunei">
+        <item>GERAN优先</item>
+        <item>E-UTRAN优先</item>
+        <item>UTRAN FDD优先</item>
+        <item>UTRAN TDD优先</item>
+    </string-array>
+    
+    <string-array name="taurefuseres">
+        <item>IMSI_UNKNOWN_IN_HSS</item>
+        <item>ILLEGAL_UE</item>
+        <item>IMEI_NOT_ACCEPTED</item>
+        <item>EPS_SERVICES_NOT_ALLOWED</item>
+        <item>PLMN_NOT_ALLOWED</item>
+        <item>TRACKING_AREA_NOT_ALLOWED</item>
+        <item>ROAMING_NOT_ALLOW_IN_TA</item>
+        <item>NO_SUITABLE_CELLS_IN_TA</item>
+        <item>NETWORK_FAILURE</item>
+        <item>CONGESTION</item>
+    </string-array>
+
+    <string-array name="paorrru">
+        <item>RRU</item>
+        <item>PA</item>
+    </string-array>
+    <string-array name="zjglx">
+        <item>TDD</item>
+        <item>FDD</item>
+    </string-array>
+    <string-array name="intelwid">
+        <item>1.4M</item>
+        <item>3M</item>
+        <item>5M</item>
+        <item>10M</item>
+        <item>15M</item>
+        <item>20M</item>
+    </string-array>
+</resources>
